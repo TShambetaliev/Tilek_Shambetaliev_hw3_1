@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Tilek_Shambetaliev_hw3_1</string>
+    <string name="intents">Intents</string>
+    <string name="email">Email address</string>
+    <string name="tema">Sms theme</string>
+    <string name="sms">Text message</string>
+    <string name="send">SEND</string>
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <style name="Base.EditText" parent="">
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">370dp</item>
+        <item name="android:layout_height">70dp</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+    </style>
+    
+    <style name="Base.Button" parent="Widget.MaterialComponents.Button">
+        <item name="android:layout_height">70dp</item>
+        <item name="android:layout_width">370dp</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:textStyle">bold</item>
+
+    </style>
+
+</resources>
