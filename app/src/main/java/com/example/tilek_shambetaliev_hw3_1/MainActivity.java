@@ -41,11 +41,6 @@ public class MainActivity extends AppCompatActivity {
         emailIntent.putExtra(Intent.EXTRA_EMAIL,new String[]{txtEmail.getText().toString()});
         emailIntent.putExtra(Intent.EXTRA_SUBJECT,nameSms.getText().toString());
         emailIntent.putExtra(Intent.EXTRA_TEXT,txtMessage.getText().toString());
-        emailIntent.putExtra(
-                Intent.EXTRA_STREAM,
-                Uri.parse("file://" + Environment.getExternalStorageDirectory()
-                +"/Клипы/SOTY_ATHD.mp4"));
-        emailIntent.setType("text/video");
 
         MainActivity.this.startActivity(Intent.createChooser(emailIntent, "send message"));
     }
